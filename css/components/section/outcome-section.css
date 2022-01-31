@@ -1,0 +1,68 @@
+.outcome-statistics-section {
+  margin-top: 50px;
+}
+
+.outcome-statistics-section-headline__title {
+  margin: 0 0 20px 0;
+}
+
+.statistics-item {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.statistics-item__icon {
+  --icon-size: 44px;
+  width: var(--icon-size);
+  height: var(--icon-size);
+  border-radius: 5px;
+  position: relative;
+}
+
+.statistics-item__icon--orange {
+  background-color: rgb(255, 234, 218);
+}
+.statistics-item__icon--green {
+  background-color: rgb(221, 249, 228);
+}
+.statistics-item__icon--blue {
+  background-color: rgb(228, 240, 255);
+}
+
+.statistics-item-icon__image {
+  --size: 20px;
+  width: var(--size);
+  height: var(--size);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.statistics-item-wrapper {
+  width: 100%;
+}
+
+.statistics-item__progress {
+  display: flex;
+}
+
+.statistics-item-progress__bar {
+  width: 100%;
+  margin: 0 15px;
+}
+
+.statistics-item-progress__number {
+  font-family: var(--app-font-lato);
+  font-weight: 600;
+  font-size: 24;
+  color: rgb(var(--color-black));
+}
+
+.statistics-item__title {
+  font-family: var(--app-font-suprema);
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(var(--color-gray-light));
+  margin: 0 15px;
+}

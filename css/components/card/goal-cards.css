@@ -1,0 +1,87 @@
+.goal-cards-section {
+  margin: 30px 0 0 0;
+}
+
+.goal-cards-section__headline {
+  display: flex;
+  align-items: center;
+}
+
+.goal-cards-section-headline__title {
+  margin: 0 10px 0 0;
+}
+
+.goal-cards-section-headline__add-btn {
+  border-radius: 50%;
+  font-weight: 900;
+  font-size: 15px;
+}
+
+.goal-cards-section__cards {
+  --card-width: 160px;
+  --card-height: 185px;
+  position: relative;
+  height: calc(var(--card-height) + (var(--app-card-margin-y) * 2));
+}
+
+.goal-cards-section__cards-wrapper {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  overflow: auto hidden;
+  padding: 0 10px;
+}
+
+.goal-cards-section__cards::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 40px;
+  box-shadow: 0 0 20px 30px rgb(var(--color-white));
+  z-index: 10;
+}
+
+.goal-card {
+  --img-size: 35px;
+  min-width: calc(var(--card-width) - 10px);
+  max-width: var(--card-width);
+  height: var(--card-height);
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.2s ease-in-out;
+  margin-right: 30px;
+  background-color: rgb(var(--color-white));
+}
+
+.goal-card:hover {
+  box-shadow: 0 0 5px 2px rgb(var(--color-black));
+}
+
+.goal-card__money-quantity {
+  font-family: var(--app-font-lato);
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(var(--color-gray-light-2));
+}
+
+.goal-card__date {
+  font-family: var(--app-font-suprema);
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(var(--color-gray-light));
+}
+
+.goal-card__img {
+  width: var(--img-size);
+  height: var(--img-size);
+  margin-top: var(--img-size);
+}
+
+.goal-card__link {
+  text-decoration: none;
+  color: rgb(var(--color-black));
+  font-family: var(--app-font-suprema);
+  font-weight: 400;
+  font-size: 20px;
+}

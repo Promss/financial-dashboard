@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+}
+
+::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 50%;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(var(--color-blue-dark));
+  border-radius: 5px;
+}

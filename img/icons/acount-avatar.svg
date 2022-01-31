@@ -1,0 +1,9 @@
+<svg fill="none" viewBox="0 0 36 36">
+  <mask id="a" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="36" height="36">
+    <circle cx="18.2" cy="18.3" r="17.5" fill="#FFC145"/>
+  </mask>
+  <g mask="url(#a)">
+    <path d="M29 37.9v-3.6a8 8 0 0 0-1.6-5 4.9 4.9 0 0 0-3.8-2.2H12.7a5 5 0 0 0-3.8 2.1 8.5 8.5 0 0 0-1.6 5V38" fill="#197BBD"/>
+    <path d="M18.2 21.7a5.4 5.4 0 1 0 0-10.8 5.4 5.4 0 0 0 0 10.8Z" fill="#fff"/>
+  </g>
+</svg>
